@@ -38,7 +38,6 @@ body {
 
 .jumbotron {
     background-color: transparent;
-    text-align: right;
 }
 
 .jumbotron h1 {
@@ -49,6 +48,11 @@ body {
 .jumbotron .lead {
     margin:25px 0;
     color: #efe4e4;
+    text-align: justify;
+}
+.def-right {
+    position:relative;
+    float:right;
 }
 
 /* --------------------------------------------------------------------containers */
@@ -96,8 +100,38 @@ body {
 .container-wrapper--marron {
     background-color: #883a29;
     color:white;
-}    
+}
 
+.know-further-container {
+    text-align: center;
+}
+.center-text {
+   max-width:710px;
+   margin-left: 215px;
+}
+
+.content-container-1 {
+    padding-top: 75px;
+    padding-bottom: 45px;
+}
+
+.center-cropped-0 img {
+  object-fit: none;
+  object-position: center;
+  margin-left:100px;
+  width: 1140px;
+  max-height: 35px;
+  margin-bottom: 3rem;
+}
+
+.center-cropped img {
+  object-fit: none;
+  object-position: center;
+  margin-left:100px;
+  width: 1140px;
+  max-height: 100px;
+  margin-bottom: 0.5rem;
+}
 /* ------------------------------------------------ Cases */
 
 .media {
@@ -195,4 +229,27 @@ body {
     font-weight: bold;
     margin-top: 10px;
     color: #f05f40;
+}
+
+
+/* ------------------------------------------------ Social Links */
+
+.social-links li a i {
+    width: 40px;
+    height: 40px;
+    padding: 15px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
 }
