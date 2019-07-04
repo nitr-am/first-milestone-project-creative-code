@@ -92,6 +92,10 @@ body {
     color:#000;
 }   
 
+.card-text {
+    padding: 0;
+}
+
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
@@ -134,17 +138,24 @@ body {
 }
 /* ------------------------------------------------ Cases */
 
+.card {
+    margin:15px;
+    height: 530px;
+}
+
 .media {
     height: 500px;
 }
 
 .case {
     position: relative;
+    height:270px;
 }
 
 .case .vid {
     position: absolute;
     margin-bottom: 20px;
+    padding: 0 0 0 15px;
 }
 
 /* ------------------------------------------------ Page headers */
@@ -230,6 +241,11 @@ body {
     margin-top: 10px;
     color: #f05f40;
 }
+
+
+/* ------------------------------------------------ videos */
+
+
 
 
 /* ------------------------------------------------ Social Links */
