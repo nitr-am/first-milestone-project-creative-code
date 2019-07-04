@@ -6,7 +6,7 @@ body {
 /*------------------------------------------------------------- Navbar */
 
 .nav-container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
@@ -47,12 +47,13 @@ body {
 }
 .jumbotron .lead {
     margin:25px 0;
-    color: #efe4e4;
+    color: #fff;
     text-align: justify;
+    z-index: 1;
 }
 .def-right {
     position:relative;
-    float:right;
+    float:left;
 }
 
 /* --------------------------------------------------------------------containers */
@@ -60,7 +61,7 @@ body {
 .def-container {
     height: 100vh;
 
-    background: url("../images/CreativeCode2.jpeg") no-repeat bottom right fixed;
+    background: url("../images/CreativeCode6.jpeg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -77,9 +78,10 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 10%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 0;
 }
 
 .history-container {
@@ -158,6 +160,10 @@ body {
     padding: 0 0 0 15px;
 }
 
+.vid {
+    margin-bottom: 20px;
+}
+
 /* ------------------------------------------------ Page headers */
 
 .history-header h2 {
@@ -222,14 +228,13 @@ body {
 }
 
 .language {
-    text-align: center;
+    text-align: justify;
     margin-bottom: 40px;
 }
 
-.language i {
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 45px;
+.language h3 {
+    text-align: center;
+    padding-bottom: 8px;
 }
 
 .language .btn {
@@ -240,6 +245,15 @@ body {
     font-weight: bold;
     margin-top: 10px;
     color: #f05f40;
+}
+
+.button-read-more {
+    text-align:center;
+}
+
+.lang {
+    height: 250px;
+    padding-bottom: 8px;
 }
 
 
