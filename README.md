@@ -1,4 +1,4 @@
-# Your Project's Name
+# Creative Coding
 
 This project is inspired by a different way of coding. Not the functional and traditional way of coding but one used with creative purposes. This website is to understand what that is, what does it mean, to see some cases of people using creative code and also to learn about some languages that help people develop their ideas. 
 
