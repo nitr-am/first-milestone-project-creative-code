@@ -12,6 +12,7 @@ body {
     z-index: 1;
     padding-left: 0;
     padding-right: 0;
+    background-color: #8f8f8f;
 }
 
 .navbar {
@@ -33,6 +34,12 @@ body {
     font-weight: bold;
 }
 
+.navbar-dark .navbar-text {
+    color: #e0baba;
+    padding: 8px;
+    margin:0;
+}
+
 
 /*-------------------------------------------------------- Jumbotron */
 
@@ -41,7 +48,7 @@ body {
 }
 
 .jumbotron h1 {
-    color:white;
+    color: white;
     font-weight: bold;
     margin-bottom: 30px;
 }
@@ -53,15 +60,15 @@ body {
 }
 .def-right {
     position:relative;
-    float:left;
+    float:right;
 }
 
 /* --------------------------------------------------------------------containers */
 
 .def-container {
-    height: 100vh;
+    height: 100%;
 
-    background: url("../images/CreativeCode6.jpeg") no-repeat bottom right fixed;
+    background: url("../images/CreativeCode2.jpeg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -72,16 +79,6 @@ body {
     justify-content: center;
     
     position:relative;
-}
-
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 10%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
-    z-index: 0;
 }
 
 .history-container {
@@ -112,8 +109,8 @@ body {
     text-align: center;
 }
 .center-text {
-   max-width:710px;
-   margin-left: 215px;
+   max-width:70%;
+   margin:auto;
 }
 
 .content-container-1 {
@@ -125,7 +122,7 @@ body {
   object-fit: none;
   object-position: center;
   margin-left:100px;
-  width: 1140px;
+  width: 85%;
   max-height: 35px;
   margin-bottom: 3rem;
 }
@@ -134,24 +131,20 @@ body {
   object-fit: none;
   object-position: center;
   margin-left:100px;
-  width: 1140px;
+  width: 85%;
   max-height: 100px;
   margin-bottom: 0.5rem;
 }
 /* ------------------------------------------------ Cases */
 
-.card {
-    margin:15px;
-    height: 530px;
-}
-
 .media {
-    height: 500px;
+    height: auto;
+    width: auto;
 }
 
 .case {
     position: relative;
-    height:270px;
+    height:280px;
 }
 
 .case .vid {
@@ -160,9 +153,7 @@ body {
     padding: 0 0 0 15px;
 }
 
-.vid {
-    margin-bottom: 20px;
-}
+
 
 /* ------------------------------------------------ Page headers */
 
@@ -252,8 +243,7 @@ body {
 }
 
 .lang {
-    height: 250px;
-    padding-bottom: 8px;
+  
 }
 
 
