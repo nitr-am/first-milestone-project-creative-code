@@ -61,6 +61,7 @@ body {
 .def-right {
     position:relative;
     float:right;
+    margin: 50px;
 }
 
 /* --------------------------------------------------------------------containers */
