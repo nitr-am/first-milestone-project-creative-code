@@ -59,15 +59,17 @@ body {
     z-index: 1;
 }
 .def-right {
-    position:relative;
-    float:right;
-    margin: 50px;
+    position: relative;
+    float: right;
+    margin: 100px 0;
 }
 
 /* --------------------------------------------------------------------containers */
 
 .def-container {
     height: 100%;
+    width:100%;
+    margin-right: 15px;
 
     background: url("../images/CreativeCode2.jpeg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
