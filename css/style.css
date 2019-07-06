@@ -1,11 +1,13 @@
 body {
     font-family: "Roboto", sans-serif;
     text-align: justify;
+    max-width: 100%;
 }
 
 /*------------------------------------------------------------- Navbar */
 
 .nav-container {
+    max-width: 100%;
     position: fixed;
     top: 0;
     left: 0;
