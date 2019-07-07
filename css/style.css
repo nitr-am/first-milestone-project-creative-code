@@ -96,10 +96,6 @@ body {
     color:#000;
 }   
 
-.card-text {
-    padding: 0;
-}
-
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
@@ -158,8 +154,6 @@ body {
     padding: 0 0 0 15px;
 }
 
-
-
 /* ------------------------------------------------ Page headers */
 
 .history-header h2 {
@@ -189,10 +183,6 @@ body {
     background-color:#444;
 }
 
-.block-divider--black {
-    background-color: #0000000;
-}
-
 .block-divider--white {
     background-color: white;
 }
@@ -201,7 +191,7 @@ body {
     width: 35px;
 }
 
-/* Buttons */
+/*----------------------------------------- Buttons */
 
 .btn--cta {
     font-weight: bold;
@@ -255,12 +245,6 @@ body {
     border-color: #df4929;
     color: white;
 }
-
-
-/* ------------------------------------------------ videos */
-
-
-
 
 /* ------------------------------------------------ Social Links */
 
