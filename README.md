@@ -4,6 +4,8 @@ This project is inspired by a different way of coding. Not the functional and tr
 
 Want to learn about it? Have a look. 
 
+To go now to the project website please click the following [GitHub Pages link](https://nitr-am.github.io/first-project-creative-code/).
+
 
 ## UX
 This project is intended to people who have discovered that there is a creative process born of programming. It is for people interested in coding and also in arts or the creative process. It is also for people who have some attraction or curiosity for how does the digital arts are created, at least some of them.
@@ -83,7 +85,19 @@ The project has been tested in different screen sizes, like mobile phone, tablet
 
 ## Deployment
 
-This project was developed using the Cloud9 IDE from [Amazon Web Services](https://www.awseducate.com/student/s/awssite), committed to git and pushed to [GitHub](https://github.com/) online repository throughout a built in cloud9 funtion so everybody get access to it.
+This project was developed using the Cloud9 IDE from [Amazon Web Services](https://www.awseducate.com/student/s/awssite), committed to git and pushed to [GitHub](https://github.com/) online repository throughout a built in cloud9 function so everybody get access to it.
+
+To run this project directly form your browser, please click on the following [GitHub Pages link](https://nitr-am.github.io/first-project-creative-code/).
+
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. Log into GitHub.
+2. From the list of repositories available, **nitr-am/first-project-creative-code** was selected.
+3. From the menu items below the navigation bar, Settings was selected.
+4. Scroll down to the **GitHub Pages** section.
+5. In the Source option with a default *None* clicked the drop-down menu selected **Master Branch**.
+6. After selecting *Master Branch* the page was deployed automatically and ready to use and the link was released in the same **GitHub Pages** section mentioned in point 4. 
+
 
 #### To run this project locally
 
